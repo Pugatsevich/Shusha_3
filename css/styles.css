@@ -1,0 +1,42 @@
+:root {
+  --primary-text-color: #ffffff;
+  --title-text-color: #f5e23b;
+  --accent-color: #3d5f23;
+}
+
+body {
+  font-family: "Underdog", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--primary-text-color);
+  background: linear-gradient(90deg, #c17931, #ecc904);
+}
+
+a {
+  text-decoration: none;
+}
+
+.site-nav a {
+  color: var(--primary-text-color);
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .current {
+  color: var(--accent-color);
+}
+
+.site-nav {
+  list-style: none;
+}
+
+.hero .title {
+  color: var(--title-text-color);
+}
+
+.hero img {
+  border-radius: 50%;
+}
